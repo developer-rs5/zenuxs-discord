@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenuxs — The Most Khatarnaak Discord Server | discord.zenuxs.in</title>
+  <meta name="description" content="Join Zenuxs Discord — the most khatarnaak community for devs, gamers, and chaos enjoyers. Real members, live stats, 24/7 active server. discord.gg/zenuxs" />
+  <meta name="keywords" content="Zenuxs, Discord server, developer community, gaming server, discord.gg/zenuxs, zenuxs.in, programming, minecraft" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Zenuxs" />
+  <link rel="canonical" href="https://discord.zenuxs.in/" />
+  <meta property="og:type" content="website" /><meta property="og:url" content="https://discord.zenuxs.in/" />
+  <meta property="og:title" content="Zenuxs — The Most Khatarnaak Discord Server" />
+  <meta property="og:description" content="Join 1000+ devs & gamers. Real members, real chaos. discord.gg/zenuxs" />
+  <meta property="og:site_name" content="Zenuxs" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zenuxs — The Most Khatarnaak Discord Server" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Zenuxs","url":"https://discord.zenuxs.in","sameAs":["https://discord.gg/zenuxs"]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root{--blurple:#5865f2;--purple:#8b5cf6;--green:#23a55a;--red:#f23f43;--yellow:#f0b232;--bg:#050507;--border:rgba(255,255,255,.07);--text:#e0e0ff;--muted:rgba(200,200,255,.45);--dc-bg:#313338;--dc-ch:#2b2d31;--dc-srv:#1e1f22;}
+    *{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+    body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;}
+    body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(88,101,242,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(88,101,242,.03) 1px,transparent 1px);background-size:44px 44px;z-index:-3;}
+    body::after{content:"";position:fixed;inset:0;background:radial-gradient(ellipse 60% 50% at 10% 0%,rgba(88,101,242,.15),transparent),radial-gradient(ellipse 50% 40% at 90% 100%,rgba(139,92,246,.13),transparent);z-index:-2;}
+    /* NAV */
+    nav{width:100%;position:fixed;top:0;left:0;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;background:rgba(5,5,7,.82);backdrop-filter:blur(24px);border-bottom:1px solid var(--border);z-index:999;}
+    .logo-wrap{display:flex;align-items:center;gap:10px;text-decoration:none;}
+    .logo-img{width:34px;height:34px;border-radius:9px;object-fit:cover;border:1px solid rgba(88,101,242,.4);}
+    .logo-text{font-size:20px;font-weight:800;letter-spacing:-.03em;color:white;}.logo-text span{color:#7c8cff;}
+    .nav-links{display:flex;gap:28px;}
+    .nav-links a{text-decoration:none;color:var(--muted);font-weight:600;font-size:13px;letter-spacing:.02em;transition:.2s;display:flex;align-items:center;gap:6px;}
+    .nav-links a i{font-size:11px;}.nav-links a:hover{color:white;}
+    .join-btn{text-decoration:none;background:linear-gradient(135deg,#5865f2,#8b5cf6);color:white;padding:9px 20px;border-radius:40px;font-weight:700;font-size:13px;transition:.3s;box-shadow:0 0 20px rgba(88,101,242,.3);display:flex;align-items:center;gap:8px;}
+    .join-btn:hover{transform:translateY(-2px);box-shadow:0 0 30px rgba(88,101,242,.55);}
+    /* HERO */
+    .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:110px 5% 70px;gap:48px;}
+    .hero-left{width:100%;max-width:780px;text-align:center;}
+    .live-badge{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:40px;background:rgba(35,165,90,.1);border:1px solid rgba(35,165,90,.25);margin-bottom:22px;font-size:11px;font-weight:700;letter-spacing:.08em;color:#4ade80;}
+    .live-badge i{font-size:8px;animation:pulse 1.4s infinite;}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.7);opacity:.5}}
+    .hero h1{font-size:clamp(48px,7.5vw,90px);line-height:.92;letter-spacing:-.06em;font-weight:800;color:white;}
+    .gradient{background:linear-gradient(135deg,#7c8cff,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+    .hero-sub{margin-top:24px;line-height:1.8;color:var(--muted);font-family:'Space Mono',monospace;font-size:12px;}
+    .hero-sub span{color:#7c8cff;}
+    .hero-buttons{display:flex;gap:14px;margin-top:36px;flex-wrap:wrap;justify-content:center;}
+    .primary-btn,.secondary-btn{text-decoration:none;padding:13px 26px;border-radius:40px;font-weight:700;font-size:13px;transition:.3s;display:flex;align-items:center;gap:8px;}
+    .primary-btn{background:linear-gradient(135deg,#5865f2,#8b5cf6);color:white;box-shadow:0 6px 24px rgba(88,101,242,.3);}
+    .primary-btn:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(88,101,242,.5);}
+    .secondary-btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.04);color:white;}
+    .secondary-btn:hover{background:rgba(255,255,255,.08);}
+    .stats{display:flex;gap:14px;margin-top:42px;flex-wrap:wrap;justify-content:center;}
+    .stat-card{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:18px;padding:16px 22px;min-width:110px;display:flex;flex-direction:column;gap:4px;}
+    .stat-num{font-size:32px;font-weight:800;letter-spacing:-.04em;color:white;}
+    .stat-label{color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.06em;display:flex;align-items:center;gap:5px;}
+    /* DISCORD WINDOW */
+    .hero-right{width:100%;max-width:1100px;}
+    .discord-window{background:var(--dc-bg);border:1px solid rgba(255,255,255,.08);border-radius:16px;overflow:hidden;box-shadow:0 32px 80px rgba(0,0,0,.8),0 0 0 1px rgba(88,101,242,.08);}
+    .win-chrome{background:#232428;padding:10px 14px;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(0,0,0,.3);}
+    .win-dot{width:10px;height:10px;border-radius:50%;}.win-dot.cl{background:#ff5f57;}.win-dot.mn{background:#febc2e;}.win-dot.mx{background:#28c840;}
+    .win-title{flex:1;text-align:center;font-size:11px;color:#72767d;font-weight:600;}
+    /* APP GRID */
+    .dc-app{display:grid;grid-template-columns:60px 210px 1fr 200px;height:560px;}
+    /* SERVER LIST */
+    .srv{background:var(--dc-srv);display:flex;flex-direction:column;align-items:center;padding:10px 0;gap:7px;overflow:hidden;}
+    .srv-icon{width:42px;height:42px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;background:#313338;cursor:pointer;transition:.25s;color:#b5bac1;overflow:hidden;flex-shrink:0;}
+    .srv-icon img{width:100%;height:100%;object-fit:cover;border-radius:14px;}
+    .srv-icon.active{border-radius:16px;box-shadow:0 0 0 3px var(--blurple);}
+    .srv-icon:hover:not(.active){border-radius:12px;background:#4e5058;}
+    .srv-sep{width:24px;height:1px;background:rgba(255,255,255,.1);}
+    /* CHANNELS - SCROLLABLE */
+    .chs{background:var(--dc-ch);display:flex;flex-direction:column;overflow:hidden;}
+    .chs-header{padding:12px 10px;font-weight:700;font-size:13px;color:white;border-bottom:1px solid rgba(0,0,0,.3);display:flex;align-items:center;gap:7px;flex-shrink:0;}
+    .chs-header img{width:20px;height:20px;border-radius:5px;object-fit:cover;}
+    .chs-body{padding:4px;overflow-y:auto;flex:1;}
+    .chs-body::-webkit-scrollbar{width:3px;}.chs-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:2px;}
+    .ch-group-hd{display:flex;align-items:center;gap:5px;color:#72767d;font-size:10px;font-weight:700;letter-spacing:.07em;padding:14px 6px 4px;cursor:pointer;transition:.15s;}
+    .ch-group-hd:hover{color:#b5bac1;}.ch-group-hd i{font-size:9px;}
+    .ch{display:flex;align-items:center;gap:6px;padding:5px 8px;border-radius:5px;cursor:pointer;color:#72767d;transition:.15s;font-size:12px;}
+    .ch i{font-size:12px;width:14px;flex-shrink:0;}.ch:hover{background:rgba(255,255,255,.07);color:#dcddde;}.ch.active{background:#404249;color:white;}
+    .ch-vc-badge{margin-left:auto;font-size:10px;background:var(--green);color:white;border-radius:4px;padding:1px 5px;display:flex;align-items:center;gap:3px;}
+    .ch-unread{margin-left:auto;width:8px;height:8px;background:white;border-radius:50%;}
+    /* CHAT */
+    .chat{display:flex;flex-direction:column;background:var(--dc-bg);min-width:0;overflow:hidden;}
+    .chat-head{padding:10px 14px;border-bottom:1px solid rgba(0,0,0,.3);display:flex;align-items:center;gap:8px;flex-shrink:0;}
+    .chat-head .ch-ico{color:#72767d;font-size:14px;}
+    .chat-head-info{flex:1;min-width:0;}
+    .chat-head-name{font-weight:700;font-size:13px;color:white;}
+    .chat-head-desc{font-size:10px;color:#72767d;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .chat-head-acts{display:flex;gap:12px;color:#b5bac1;font-size:14px;}
+    .chat-head-acts i{cursor:pointer;transition:.15s;}.chat-head-acts i:hover{color:white;}
+    /* MESSAGES - SCROLLABLE */
+    .msgs{flex:1;overflow-y:auto;padding:10px 14px;display:flex;flex-direction:column;gap:0;scroll-behavior:smooth;}
+    .msgs::-webkit-scrollbar{width:4px;}.msgs::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:2px;}.msgs::-webkit-scrollbar-track{background:transparent;}
+    .msg-group{margin-top:12px;}
+    .msg-row{display:flex;gap:10px;padding:2px 4px;border-radius:4px;transition:.1s;}
+    .msg-row:hover{background:rgba(255,255,255,.03);}
+    .msg-row.cont-row{padding:1px 4px;}
+    .msg-avatar-col{width:36px;flex-shrink:0;}
+    .avatar-circle{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:white;overflow:hidden;flex-shrink:0;}
+    .avatar-circle img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
+    .msg-ts-indent{width:36px;flex-shrink:0;display:flex;align-items:center;justify-content:flex-end;padding-right:4px;}
+    .msg-ts-indent span{font-size:9px;color:#4a4d56;opacity:0;transition:.1s;}
+    .msg-row:hover .msg-ts-indent span{opacity:1;}
+    .msg-body{flex:1;min-width:0;}
+    .msg-meta{display:flex;align-items:baseline;gap:6px;margin-bottom:1px;flex-wrap:wrap;}
+    .msg-author{font-weight:700;font-size:13px;cursor:pointer;}.msg-author:hover{text-decoration:underline;}
+    .msg-time{font-size:10px;color:#4a4d56;}
+    .msg-badge{font-size:9px;padding:1px 5px;border-radius:4px;font-weight:700;}
+    .badge-bot{background:#5865f2;color:white;}.badge-mod{background:#e91e63;color:white;}.badge-dev{background:#00b09b;color:white;}
+    .msg-text,.msg-cont-text{font-size:12px;line-height:1.55;color:#dcddde;word-break:break-word;}
+    .reply-strip{display:flex;align-items:center;gap:6px;font-size:10px;color:#72767d;margin-bottom:2px;margin-left:46px;}
+    .reply-strip i{font-size:10px;}.reply-strip-author{color:#b5bac1;font-weight:600;}
+    .reactions{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px;}
+    .rx{display:inline-flex;align-items:center;gap:4px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:2px 7px;font-size:11px;cursor:pointer;transition:.15s;user-select:none;}
+    .rx:hover{background:rgba(88,101,242,.25);border-color:var(--blurple);}.rx.me{background:rgba(88,101,242,.3);border-color:var(--blurple);color:#b5c3ff;}
+    .rx i{font-size:10px;}.rx-count{font-size:11px;font-weight:700;}
+    .add-rx{display:inline-flex;align-items:center;justify-content:center;width:26px;height:22px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:8px;cursor:pointer;transition:.15s;color:#72767d;font-size:11px;}
+    .add-rx:hover{background:rgba(88,101,242,.2);color:white;}
+    .code-blk{background:#1e1f22;border:1px solid rgba(255,255,255,.08);border-radius:6px;padding:9px 11px;margin-top:5px;font-family:'Space Mono',monospace;font-size:10px;line-height:1.7;color:#b5bac1;white-space:pre;overflow-x:auto;}
+    .code-lang-lbl{color:#5865f2;font-weight:700;display:block;margin-bottom:5px;font-size:9px;text-transform:uppercase;}
+    .err-line{color:#f87171;}
+    @keyframes slideIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+    .msg-new{animation:slideIn .22s ease;}
+    /* TYPING */
+    .typing-row{padding:3px 14px 6px;font-size:11px;color:#72767d;display:flex;align-items:center;gap:6px;height:22px;flex-shrink:0;}
+    .typing-dots{display:flex;gap:3px;}
+    .typing-dots span{width:4px;height:4px;background:#72767d;border-radius:50%;animation:blink 1.4s infinite;}
+    .typing-dots span:nth-child(2){animation-delay:.2s;}.typing-dots span:nth-child(3){animation-delay:.4s;}
+    @keyframes blink{0%,80%,100%{opacity:.2}40%{opacity:1}}
+    /* INPUT */
+    .chat-input-area{padding:0 12px 10px;flex-shrink:0;}
+    .reply-bar-input{background:#2f3136;border-radius:8px 8px 0 0;border-bottom:1px solid rgba(0,0,0,.3);padding:6px 12px;display:flex;align-items:center;gap:8px;font-size:11px;color:#72767d;}
+    .reply-bar-input span{color:#b5bac1;font-weight:600;}
+    .reply-bar-input .close-reply{margin-left:auto;cursor:pointer;transition:.15s;}.reply-bar-input .close-reply:hover{color:white;}
+    .chat-input-wrap{background:#383a40;border-radius:8px;display:flex;align-items:center;overflow:hidden;}
+    .chat-input-acts{padding:0 10px;display:flex;gap:8px;color:#72767d;font-size:14px;}
+    .chat-input-acts i{cursor:pointer;transition:.15s;}.chat-input-acts i:hover{color:#dcddde;}
+    .chat-input-field{flex:1;background:transparent;border:none;outline:none;font-family:'Syne',sans-serif;font-size:12px;color:white;padding:10px 0;caret-color:#5865f2;}
+    .chat-input-field::placeholder{color:#72767d;}
+    .send-btn{padding:8px 12px;color:#72767d;cursor:pointer;font-size:14px;transition:.15s;display:flex;align-items:center;}
+    .send-btn:hover,.send-btn.active{color:#5865f2;}
+    /* MEMBERS */
+    .members{background:var(--dc-ch);border-left:1px solid rgba(0,0,0,.3);display:flex;flex-direction:column;overflow:hidden;}
+    .members-head{padding:10px 10px 7px;font-size:10px;font-weight:700;color:#72767d;letter-spacing:.07em;border-bottom:1px solid rgba(0,0,0,.2);display:flex;align-items:center;gap:5px;flex-shrink:0;}
+    .members-head i{font-size:9px;color:var(--green);animation:pulse 1.5s infinite;}
+    .members-body{overflow-y:auto;flex:1;padding:4px 0;}
+    .members-body::-webkit-scrollbar{width:3px;}.members-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:2px;}
+    .mem-group-title{font-size:10px;font-weight:700;color:#4a4d56;letter-spacing:.06em;padding:10px 9px 3px;}
+    .mem-item{display:flex;align-items:center;gap:7px;padding:4px 9px;border-radius:5px;margin:0 3px;cursor:pointer;transition:.12s;}
+    .mem-item:hover{background:rgba(255,255,255,.07);}
+    .mem-avi-wrap{position:relative;flex-shrink:0;}
+    .mem-avi{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:white;overflow:hidden;}
+    .mem-avi img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
+    .status-dot{position:absolute;bottom:-1px;right:-1px;width:10px;height:10px;border-radius:50%;border:2px solid var(--dc-ch);}
+    .s-on{background:var(--green);}.s-idle{background:var(--yellow);}.s-dnd{background:var(--red);}.s-off{background:#80848e;}
+    .mem-info{min-width:0;}
+    .mem-name{font-size:12px;color:#b5bac1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .mem-activity{font-size:10px;color:#4a4d56;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .mem-item:hover .mem-name{color:white;}
+    /* CTX MENU */
+    .ctx-menu{position:fixed;z-index:9999;background:#18191c;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:6px;min-width:160px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;}
+    .ctx-menu.show{display:block;}
+    .ctx-item{padding:7px 12px;border-radius:5px;font-size:12px;font-weight:600;cursor:pointer;color:#dcddde;display:flex;align-items:center;gap:8px;transition:.1s;}
+    .ctx-item i{width:14px;font-size:12px;}.ctx-item:hover{background:var(--blurple);color:white;}
+    .ctx-item.danger{color:#f87171;}.ctx-item.danger:hover{background:#f23f43;color:white;}
+    .ctx-sep{height:1px;background:rgba(255,255,255,.07);margin:4px 0;}
+    /* EMOJI */
+    .emoji-pick{position:fixed;z-index:9999;background:#18191c;border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;}
+    .emoji-pick.show{display:block;}
+    .emoji-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;}
+    .emoji-btn{padding:5px;border-radius:5px;cursor:pointer;text-align:center;font-size:15px;transition:.15s;background:none;border:none;color:#dcddde;}
+    .emoji-btn:hover{background:rgba(255,255,255,.1);}
+    /* TOAST */
+    .toast{position:fixed;bottom:24px;right:24px;z-index:9999;background:#23a55a;color:white;padding:10px 18px;border-radius:8px;font-size:13px;font-weight:600;display:flex;align-items:center;gap:8px;transform:translateX(120%);transition:.35s cubic-bezier(.34,1.56,.64,1);box-shadow:0 4px 16px rgba(0,0,0,.4);}
+    .toast.show{transform:translateX(0);}
+    /* SECTIONS */
+    section{padding:90px 5%;}
+    .section-title{text-align:center;margin-bottom:50px;}
+    .section-title h2{font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:-.04em;color:white;}
+    .section-title p{color:var(--muted);margin-top:10px;font-size:14px;}
+    .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
+    .feature-card{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:20px;padding:24px;transition:.3s;}
+    .feature-card:hover{transform:translateY(-5px);background:rgba(88,101,242,.06);border-color:rgba(88,101,242,.3);}
+    .feature-icon{width:44px;height:44px;border-radius:12px;background:rgba(88,101,242,.15);border:1px solid rgba(88,101,242,.2);display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-size:18px;color:#7c8cff;}
+    .feature-card h3{font-size:16px;font-weight:700;color:white;margin-bottom:7px;}
+    .feature-card p{color:var(--muted);font-size:13px;line-height:1.7;}
+    .members-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px;margin-top:36px;}
+    .member-card{background:rgba(255,255,255,.04);border-radius:18px;padding:16px;text-align:center;border:1px solid var(--border);transition:.3s;}
+    .member-card:hover{transform:translateY(-4px);border-color:rgba(88,101,242,.3);}
+    .member-card-avi{width:60px;height:60px;border-radius:50%;margin:0 auto 9px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;color:white;overflow:hidden;}
+    .member-card-avi img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
+    .member-card h4{font-size:13px;font-weight:700;color:white;}
+    .member-status{font-size:10px;margin-top:4px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:4px;}
+    .cta{text-align:center;padding-bottom:110px;}
+    .cta h2{font-size:clamp(40px,7vw,84px);font-weight:800;line-height:1;color:white;letter-spacing:-.05em;}
+    .cta p{color:var(--muted);margin-top:14px;font-size:15px;}
+    .cta-disc-tag{margin-top:16px;font-family:'Space Mono',monospace;font-size:13px;color:#7c8cff;display:flex;align-items:center;justify-content:center;gap:8px;}
+    footer{padding:24px 5%;border-top:1px solid var(--border);display:flex;justify-content:space-between;flex-wrap:wrap;color:var(--muted);font-size:12px;gap:10px;align-items:center;}
+    .footer-left{display:flex;align-items:center;gap:8px;}
+    .footer-left img{width:18px;height:18px;border-radius:4px;object-fit:cover;}
+    .footer-links{display:flex;gap:18px;}
+    .footer-links a{color:var(--muted);text-decoration:none;transition:.15s;font-size:12px;display:flex;align-items:center;gap:5px;}
+    .footer-links a:hover{color:white;}
+    .orb{position:fixed;border-radius:50%;filter:blur(90px);opacity:.18;z-index:-1;pointer-events:none;}
+    .orb1{width:280px;height:280px;background:#5865f2;top:5%;left:-70px;animation:floatOrb 9s ease-in-out infinite;}
+    .orb2{width:340px;height:340px;background:#8b5cf6;bottom:10%;right:-90px;animation:floatOrb 11s ease-in-out infinite reverse;}
+    @keyframes floatOrb{0%,100%{transform:translateY(0)}50%{transform:translateY(-36px)}}
+    @media(max-width:1200px){.dc-app{grid-template-columns:54px 195px 1fr 185px;}}
+    @media(max-width:1024px){.dc-app{grid-template-columns:48px 170px 1fr 155px;}}
+    @media(max-width:768px){.nav-links{display:none;}.members{display:none;}.srv{display:none;}.dc-app{grid-template-columns:165px 1fr;height:480px;}}
+    @media(max-width:520px){.chs{display:none;}.dc-app{grid-template-columns:1fr;}}
+  </style>
+</head>
+<body>
+<div class="orb orb1"></div><div class="orb orb2"></div>
+<div class="ctx-menu" id="ctxMenu">
+  <div class="ctx-item" onclick="ctxReply()"><i class="fa-solid fa-reply"></i> Reply</div>
+  <div class="ctx-item" onclick="ctxReact()"><i class="fa-solid fa-face-smile"></i> Add Reaction</div>
+  <div class="ctx-sep"></div>
+  <div class="ctx-item" onclick="ctxCopy()"><i class="fa-solid fa-copy"></i> Copy Text</div>
+  <div class="ctx-item danger" onclick="closeCtx()"><i class="fa-solid fa-flag"></i> Report</div>
+</div>
+<div class="emoji-pick" id="emojiPick"><div class="emoji-grid" id="emojiGrid"></div></div>
+<div class="toast" id="toast"><i class="fa-solid fa-check"></i> <span id="toastMsg">Done!</span></div>
+
+<nav>
+  <a class="logo-wrap" href="https://discord.zenuxs.in">
+    <img class="logo-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbycVu85USvmno63eaa4RTZD3zBe06vljFuQ&s" alt="Zenuxs">
+    <span class="logo-text">ZENUXS<span>.LIVE</span></span>
+  </a>
+  <div class="nav-links">
+    <a href="#features"><i class="fa-solid fa-bolt"></i> Features</a>
+    <a href="#members"><i class="fa-solid fa-users"></i> Members</a>
+    <a href="#join"><i class="fa-brands fa-discord"></i> Join</a>
+  </div>
+  <a class="join-btn" id="topJoinBtn" href="https://discord.gg/zenuxs" target="_blank" rel="noopener">
+    <i class="fa-brands fa-discord"></i> Join Discord
+  </a>
+</nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="live-badge"><i class="fa-solid fa-circle"></i> LIVE &bull; REAL MEMBERS</div>
+    <h1>The most<br><span class="gradient">khatarnaak</span><br>Discord.</h1>
+    <p class="hero-sub"><span>// discord.gg/zenuxs &nbsp;&bull;&nbsp; discord.zenuxs.in</span><br>// Real members. Real statuses. No cap.<br>// Devs, gamers, absolute chaos.</p>
+    <div class="hero-buttons">
+      <a href="https://discord.gg/zenuxs" class="primary-btn" id="heroJoinBtn" target="_blank" rel="noopener"><i class="fa-brands fa-discord"></i> Join Community</a>
+      <a href="#members" class="secondary-btn"><i class="fa-solid fa-users"></i> Live Members</a>
+    </div>
+    <div class="stats">
+      <div class="stat-card"><div class="stat-num" id="totalActiveMembers">—</div><div class="stat-label"><i class="fa-solid fa-users"></i> MEMBERS</div></div>
+      <div class="stat-card"><div class="stat-num" id="liveOnlineHero">—</div><div class="stat-label"><i class="fa-solid fa-circle" style="color:var(--green)"></i> ONLINE NOW</div></div>
+      <div class="stat-card"><div class="stat-num">24/7</div><div class="stat-label"><i class="fa-solid fa-fire"></i> CHAOS MODE</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="discord-window">
+      <div class="win-chrome">
+        <div class="win-dot cl"></div><div class="win-dot mn"></div><div class="win-dot mx"></div>
+        <div class="win-title">Zenuxs &mdash; discord.zenuxs.in</div>
+      </div>
+      <div class="dc-app">
+        <div class="srv">
+          <div class="srv-icon active"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbycVu85USvmno63eaa4RTZD3zBe06vljFuQ&s" alt="Z"></div>
+          <div class="srv-sep"></div>
+          <div class="srv-icon"><i class="fa-solid fa-gamepad" style="color:#43b581"></i></div>
+          <div class="srv-icon"><i class="fa-solid fa-code" style="color:#5865f2"></i></div>
+          <div class="srv-icon"><i class="fa-solid fa-fire" style="color:#f04747"></i></div>
+          <div class="srv-sep"></div>
+          <div class="srv-icon" style="color:var(--green)"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="chs">
+          <div class="chs-header"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbycVu85USvmno63eaa4RTZD3zBe06vljFuQ&s" alt=""> ZENUXS <i class="fa-solid fa-chevron-down" style="margin-left:auto;color:#72767d;font-size:11px;"></i></div>
+          <div class="chs-body">
+            <div class="ch-group-hd"><i class="fa-solid fa-chevron-down"></i> WELCOME</div>
+            <div class="ch active" onclick="switchCh('general',this)"><i class="fa-solid fa-hashtag"></i> general</div>
+            <div class="ch" onclick="switchCh('rules',this)"><i class="fa-solid fa-hashtag"></i> rules</div>
+            <div class="ch" onclick="switchCh('announcements',this)"><i class="fa-solid fa-hashtag"></i> announcements <span class="ch-unread"></span></div>
+            <div class="ch-group-hd"><i class="fa-solid fa-chevron-down"></i> DEVELOPER ZONE</div>
+            <div class="ch" onclick="switchCh('help-me-please',this)"><i class="fa-solid fa-hashtag"></i> help-me-please</div>
+            <div class="ch" onclick="switchCh('skill-issues',this)"><i class="fa-solid fa-hashtag"></i> skill-issues</div>
+            <div class="ch" onclick="switchCh('code-review',this)"><i class="fa-solid fa-hashtag"></i> code-review</div>
+            <div class="ch" onclick="switchCh('off-topic',this)"><i class="fa-solid fa-hashtag"></i> off-topic</div>
+            <div class="ch-group-hd"><i class="fa-solid fa-chevron-down"></i> GAMING</div>
+            <div class="ch"><i class="fa-solid fa-volume-high"></i> General VC</div>
+            <div class="ch"><i class="fa-solid fa-volume-high"></i> Minecraft <span class="ch-vc-badge"><i class="fa-solid fa-person"></i> 4</span></div>
+            <div class="ch"><i class="fa-solid fa-volume-high"></i> AFK</div>
+            <div class="ch-group-hd"><i class="fa-solid fa-chevron-down"></i> CHAOS</div>
+            <div class="ch" onclick="switchCh('memes',this)"><i class="fa-solid fa-hashtag"></i> memes</div>
+            <div class="ch"><i class="fa-solid fa-hashtag"></i> bot-spam</div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-head">
+            <i class="fa-solid fa-hashtag ch-ico"></i>
+            <div class="chat-head-info">
+              <div class="chat-head-name" id="chName">general</div>
+              <div class="chat-head-desc" id="chDesc">when in doubt, just push to main</div>
+            </div>
+            <div class="chat-head-acts">
+              <i class="fa-solid fa-bell" title="Notifications"></i>
+              <i class="fa-solid fa-thumbtack" title="Pins"></i>
+              <i class="fa-solid fa-magnifying-glass" title="Search"></i>
+            </div>
+          </div>
+          <div class="msgs" id="chatMsgs"></div>
+          <div class="typing-row" id="typingRow" style="visibility:hidden">
+            <div class="typing-dots"><span></span><span></span><span></span></div>
+            <span id="typingText">someone is typing...</span>
+          </div>
+          <div class="reply-bar-input" id="replyBar" style="display:none;">
+            <i class="fa-solid fa-reply"></i> Replying to <span id="replyingTo">—</span>
+            <i class="fa-solid fa-xmark close-reply" onclick="cancelReply()"></i>
+          </div>
+          <div class="chat-input-area">
+            <div class="chat-input-wrap">
+              <div class="chat-input-acts"><i class="fa-solid fa-plus"></i></div>
+              <input class="chat-input-field" id="msgInput" type="text" placeholder="Message #general" maxlength="200"/>
+              <div class="chat-input-acts"><i class="fa-regular fa-face-smile" onclick="openEmojiPick(event)"></i></div>
+              <div class="send-btn" id="sendBtn" onclick="sendMessage()"><i class="fa-solid fa-paper-plane"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="members">
+          <div class="members-head"><i class="fa-solid fa-circle"></i> MEMBERS — <span id="totalMembersCount">0</span></div>
+          <div class="members-body" id="membersList"><div style="padding:16px 9px;color:#4a4d56;font-size:11px;">Loading...</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="section-title"><h2>Why the hype?</h2><p>Live stats, real devs, minecraft + coding madness</p></div>
+  <div class="features-grid">
+    <div class="feature-card"><div class="feature-icon"><i class="fa-solid fa-code"></i></div><h3>Developer Hub</h3><p>JavaScript, Python, APIs, startup chaos. Ask anything. Get roasted. Learn anyway.</p></div>
+    <div class="feature-card"><div class="feature-icon"><i class="fa-solid fa-gamepad"></i></div><h3>Minecraft + Gaming</h3><p>Custom plugins, lifesteal servers, 24/7 VC. Come for the blocks, stay for the trauma.</p></div>
+    <div class="feature-card"><div class="feature-icon"><i class="fa-solid fa-signal"></i></div><h3>Actually Active</h3><p>Live member list from Discord's API. Real usernames, real statuses, zero fake numbers.</p></div>
+    <div class="feature-card"><div class="feature-icon"><i class="fa-solid fa-handshake"></i></div><h3>Skill Issues Welcome</h3><p>Pushed to main by accident? Missing semicolon? We've all been there. Come cry together.</p></div>
+  </div>
+</section>
+
+<section id="members">
+  <div class="section-title"><h2>Live Members</h2><p>Real usernames &amp; statuses pulled directly from Discord</p></div>
+  <div id="membersGrid" class="members-grid"></div>
+</section>
+
+<section class="cta" id="join">
+  <h2>Ready to join<br>the <span class="gradient">madness?</span></h2>
+  <p>Real members, live VC, projects — come as you are.</p>
+  <div class="cta-disc-tag"><i class="fa-brands fa-discord"></i> discord.gg/zenuxs &bull; discord.zenuxs.in</div>
+  <div style="margin-top:32px;">
+    <a href="https://discord.gg/zenuxs" class="primary-btn" id="bottomJoinBtn" style="display:inline-flex" target="_blank" rel="noopener"><i class="fa-brands fa-discord"></i> Join Zenuxs Discord</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-left"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbycVu85USvmno63eaa4RTZD3zBe06vljFuQ&s" alt="Zenuxs"> &copy; 2026 Zenuxs &mdash; discord.zenuxs.in</div>
+  <div class="footer-links">
+    <a href="https://discord.gg/zenuxs" target="_blank" rel="noopener"><i class="fa-brands fa-discord"></i> Discord</a>
+    <a href="#join"><i class="fa-solid fa-right-to-bracket"></i> Join</a>
+  </div>
+  <div style="color:var(--muted)">Powered by Discord API</div>
+</footer>
+
+<script>
+const GUILD_ID='1289796285678882847';
+const WIDGET_URL=`https://discord.com/api/guilds/${GUILD_ID}/widget.json`;
+const COLORS=['#7289da','#43b581','#faa61a','#f04747','#5865f2','#eb459e','#57f287','#fee75c','#00b09b','#ff6b6b'];
+
+let liveMembers=[];
+let currentChannel='general';
+let replyingToMsg=null;
+let ctxTargetMsg=null;
+let userScrolled=false;
+
+function esc(s){if(!s)return'';return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function initials(n){return(n||'').slice(0,2).toUpperCase();}
+function nowTime(){return new Date().toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});}
+function uid(){return 'm'+Date.now()+Math.random().toString(36).slice(2,5);}
+
+// Static member color/badge map
+const ST={
+  xen0:{c:'#7289da',badge:'mod'},devl00p:{c:'#43b581',badge:'dev'},r00t_wiz:{c:'#5865f2',badge:'dev'},
+  sk1llzz:{c:'#f04747'},jav4_guy:{c:'#43b581'},nub_coder99:{c:'#faa61a'},rekt_anon:{c:'#999'},
+  pr0d_bot:{c:'#5865f2',badge:'bot'},z3ph:{c:'#c084fc'},b1nary:{c:'#06b6d4'},m1dnight:{c:'#f59e0b'},
+  cl0udx:{c:'#10b981'},p1xel:{c:'#ec4899'},v0rtex:{c:'#8b5cf6'},kr4ken:{c:'#ef4444'},
+};
+
+const CHANNELS={
+  general:{desc:'when in doubt, just push to main',msgs:[
+    {id:'g01',a:'xen0',t:'8:52 AM',text:'morning everyone, hope nobody deployed overnight'},
+    {id:'g02',a:'devl00p',t:'8:53 AM',text:'i did but it was fine this time'},
+    {id:'g03',a:'r00t_wiz',t:'8:53 AM',text:'define fine'},
+    {id:'g04',a:'devl00p',cont:true,text:'services are running. mostly.'},
+    {id:'g05',a:'sk1llzz',t:'8:54 AM',text:'mostly is not a word i want to hear about prod',rx:[{e:'check',ei:'fa-solid fa-check',n:7}]},
+    {id:'g06',a:'pr0d_bot',t:'8:55 AM',text:'ALERT: Error rate spiked to 12%. Everything is fine. (It is not fine.)',rx:[{e:'skull',ei:'fa-solid fa-skull',n:11}]},
+    {id:'g07',a:'xen0',t:'8:55 AM',text:'devl00p.',rx:[{e:'sob',ei:'fa-solid fa-face-sad-cry',n:5}]},
+    {id:'g08',a:'devl00p',cont:true,text:'i am already on it please do not look at the logs'},
+    {id:'g09',a:'jav4_guy',t:'8:57 AM',text:'gm. what did i miss'},
+    {id:'g10',a:'sk1llzz',cont:true,text:'devl00p deployed at 3am and now prod is partially on fire'},
+    {id:'g11',a:'jav4_guy',cont:true,text:'ah. the usual tuesday.'},
+    {id:'g12',a:'r00t_wiz',t:'8:58 AM',text:'ok fixed. do not ask what i changed.',rx:[{e:'skull',ei:'fa-solid fa-skull',n:9},{e:'check',ei:'fa-solid fa-check',n:4}]},
+    {id:'g13',a:'xen0',t:'8:59 AM',text:'i WILL be checking git blame later'},
+    {id:'g14',a:'devl00p',cont:true,text:'please do not'},
+    {id:'g15',a:'nub_coder99',t:'9:01 AM',text:'hey can someone explain what a race condition is'},
+    {id:'g16',a:'b1nary',t:'9:01 AM',text:'two threads try to do the same thing at the same time and chaos happens'},
+    {id:'g17',a:'nub_coder99',cont:true,text:'so like this server every morning'},
+    {id:'g18',a:'xen0',t:'9:02 AM',text:'accurate',rx:[{e:'laugh',ei:'fa-solid fa-face-laugh',n:14,me:true}]},
+    {id:'g19',a:'z3ph',t:'9:04 AM',text:'anyone know a good free postgres hosting'},
+    {id:'g20',a:'r00t_wiz',t:'9:04 AM',text:'supabase free tier. works well.'},
+    {id:'g21',a:'devl00p',t:'9:04 AM',text:'railway is also solid. neon too.'},
+    {id:'g22',a:'z3ph',cont:true,text:'thanks gang'},
+    {id:'g23',a:'m1dnight',t:'9:07 AM',text:'unpopular opinion: monorepos are actually good'},
+    {id:'g24',a:'sk1llzz',t:'9:07 AM',text:'this WILL start a war'},
+    {id:'g25',a:'devl00p',t:'9:08 AM',text:'turborepo fixed most of my complaints about monorepos tbh',rx:[{e:'real',ei:'fa-solid fa-star',n:8}]},
+    {id:'g26',a:'xen0',t:'9:09 AM',text:'the secret is tooling. bad tooling = bad monorepo experience'},
+    {id:'g27',a:'p1xel',t:'9:11 AM',text:'just joined from the invite link, this place is wild'},
+    {id:'g28',a:'sk1llzz',cont:true,text:'welcome home'},
+    {id:'g29',a:'v0rtex',t:'9:12 AM',text:'zenuxs my second home fr fr',rx:[{e:'heart',ei:'fa-solid fa-heart',n:12,me:true}]},
+    {id:'g30',a:'cl0udx',t:'9:13 AM',text:'my first home too because outside has no dark mode and no free snacks'},
+  ]},
+  rules:{desc:'please read. seriously.',msgs:[
+    {id:'r01',a:'xen0',t:'12:00 AM',text:"SERVER RULES\n1. Don't be weird\n2. 'skill issue' is a valid response\n3. No spam (bot-spam channel exists)\n4. Push to main at own risk\n5. Respect everyone (yes, even nub_coder99)",rx:[{e:'check',ei:'fa-solid fa-check',n:52}]},
+    {id:'r02',a:'pr0d_bot',t:'12:01 AM',cont:true,text:'Rule 6: I am always watching. Every commit. Every deploy.',rx:[{e:'eye',ei:'fa-solid fa-eye',n:18}]},
+    {id:'r03',a:'xen0',t:'12:02 AM',cont:true,text:"Rule 7: If you ask 'how do I fix this' with no code, you will be judged."},
+    {id:'r04',a:'devl00p',t:'8:00 AM',text:'is rule 7 retroactive',rx:[{e:'skull',ei:'fa-solid fa-skull',n:24}]},
+    {id:'r05',a:'xen0',t:'8:00 AM',text:'yes'},
+    {id:'r06',a:'nub_coder99',t:'9:00 AM',text:'does rule 5 mean i get respected'},
+    {id:'r07',a:'sk1llzz',t:'9:01 AM',text:'it means we try our best',rx:[{e:'sob',ei:'fa-solid fa-face-sad-cry',n:6}]},
+    {id:'r08',a:'r00t_wiz',t:'9:02 AM',text:'you absolutely get respected nub_coder99'},
+    {id:'r09',a:'nub_coder99',cont:true,text:'that is the nicest thing anyone has said to me on discord'},
+  ]},
+  announcements:{desc:'big news only',msgs:[
+    {id:'a01',a:'xen0',t:'3 days ago',text:'We hit 500 members. Chaos authorized to scale 2x.',rx:[{e:'party',ei:'fa-solid fa-champagne-glasses',n:67},{e:'check',ei:'fa-solid fa-check',n:33}]},
+    {id:'a02',a:'xen0',t:'2 days ago',text:'New: #code-review is open. Submit code. Receive violence (constructive).',rx:[{e:'laugh',ei:'fa-solid fa-face-laugh',n:28}]},
+    {id:'a03',a:'pr0d_bot',t:'2 days ago',text:'Code review bot online. I will be fair. I will be impartial. I will roast your indentation choices.',rx:[{e:'skull',ei:'fa-solid fa-skull',n:21}]},
+    {id:'a04',a:'xen0',t:'yesterday',text:'1000 MEMBERS. I genuinely did not think we would get here. Thank you all so much.',rx:[{e:'party',ei:'fa-solid fa-champagne-glasses',n:118,me:true},{e:'heart',ei:'fa-solid fa-heart',n:74}]},
+    {id:'a05',a:'devl00p',t:'yesterday',text:'i am responsible for at least 47 of those accounts',rx:[{e:'sob',ei:'fa-solid fa-face-sad-cry',n:19}]},
+    {id:'a06',a:'xen0',t:'today',text:'Minecraft server is back. IP pinned in #gaming-info. No griefing. (griefing = instant skill issue)',rx:[{e:'check',ei:'fa-solid fa-check',n:41}]},
+  ]},
+  'help-me-please':{desc:'professional googling services',msgs:[
+    {id:'h01',a:'nub_coder99',t:'9:00 AM',text:'my css is completely broken pls help'},
+    {id:'h02',a:'sk1llzz',t:'9:00 AM',text:'paste the code'},
+    {id:'h03',a:'nub_coder99',cont:true,code:{lang:'css',src:'.box {\n  display: flex\n  align-items: center;\n  justify-content: center;\n}',err:true}},
+    {id:'h04',a:'devl00p',t:'9:01 AM',text:'missing semicolon after display: flex',rx:[{e:'skull',ei:'fa-solid fa-skull',n:9}]},
+    {id:'h05',a:'nub_coder99',t:'9:02 AM',text:'I SPENT 45 MINUTES ON THIS'},
+    {id:'h06',a:'r00t_wiz',cont:true,text:'skill issue (affectionate)',rx:[{e:'heart',ei:'fa-solid fa-heart',n:7,me:true}]},
+    {id:'h07',a:'jav4_guy',t:'9:08 AM',text:'can someone explain async/await like im 5'},
+    {id:'h08',a:'b1nary',t:'9:08 AM',text:'you order pizza. you dont stare at the door for 30 mins. you go do other stuff. pizza arrives. you eat. thats async.'},
+    {id:'h09',a:'jav4_guy',cont:true,text:'that actually makes sense thank you'},
+    {id:'h10',a:'devl00p',t:'9:09 AM',text:'await is you standing at the door ignoring everything else until the pizza arrives'},
+    {id:'h11',a:'jav4_guy',cont:true,text:'so i have been using async incorrectly this whole time'},
+    {id:'h12',a:'r00t_wiz',t:'9:09 AM',text:'classic. fixable.',rx:[{e:'check',ei:'fa-solid fa-check',n:5}]},
+    {id:'h13',a:'z3ph',t:'9:20 AM',text:'why is my node process at 2gb of ram'},
+    {id:'h14',a:'sk1llzz',t:'9:20 AM',text:'memory leak. are you clearing your intervals and event listeners'},
+    {id:'h15',a:'z3ph',cont:true,text:'what is an interval'},
+    {id:'h16',a:'devl00p',t:'9:21 AM',text:'setInterval without clearInterval. found the issue.',rx:[{e:'skull',ei:'fa-solid fa-skull',n:10}]},
+    {id:'h17',a:'z3ph',cont:true,text:'i have 47 setIntervals'},
+    {id:'h18',a:'r00t_wiz',t:'9:21 AM',text:'47.',rx:[{e:'sob',ei:'fa-solid fa-face-sad-cry',n:16}]},
+    {id:'h19',a:'m1dnight',t:'9:30 AM',text:'typescript or javascript for new project. serious question.'},
+    {id:'h20',a:'devl00p',t:'9:30 AM',text:'typescript. always typescript. I say this while currently fighting a type error.'},
+    {id:'h21',a:'sk1llzz',cont:true,text:'the irony is not lost on anyone'},
+    {id:'h22',a:'devl00p',cont:true,text:'it builds character ok'},
+  ]},
+  'skill-issues':{desc:"submit your L's here. they will be judged.",msgs:[
+    {id:'s01',a:'xen0',t:'11:00 AM',text:"welcome to skill-issues. confess. we judge but we also love you.",rx:[{e:'heart',ei:'fa-solid fa-heart',n:18}]},
+    {id:'s02',a:'jav4_guy',t:'11:05 AM',text:'i debugged for 2 hours. the bug was a missing comma in a JSON file.'},
+    {id:'s03',a:'r00t_wiz',t:'11:05 AM',text:'skill issue',rx:[{e:'skull',ei:'fa-solid fa-skull',n:22,me:true}]},
+    {id:'s04',a:'jav4_guy',cont:true,text:'i know i know'},
+    {id:'s05',a:'nub_coder99',t:'11:10 AM',text:'my turn. i googled my own error and found a stackoverflow post I wrote in 2022 and never marked as answered'},
+    {id:'s06',a:'devl00p',t:'11:10 AM',text:'bro was his own final boss',rx:[{e:'skull',ei:'fa-solid fa-skull',n:34},{e:'laugh',ei:'fa-solid fa-face-laugh',n:17,me:true}]},
+    {id:'s07',a:'sk1llzz',cont:true,text:'and the answer was still wrong right'},
+    {id:'s08',a:'nub_coder99',cont:true,text:'...the answer was wrong'},
+    {id:'s09',a:'b1nary',t:'11:22 AM',text:'i used console.log to debug for 6 hours before someone told me devtools has a full debugger with breakpoints'},
+    {id:'s10',a:'r00t_wiz',t:'11:23 AM',text:'please tell me this is a joke',rx:[{e:'sob',ei:'fa-solid fa-face-sad-cry',n:11}]},
+    {id:'s11',a:'b1nary',cont:true,text:'i now use the debugger every day. it changed my life.'},
+    {id:'s12',a:'devl00p',t:'11:30 AM',text:'ok my turn. pushed hotfix to fix the hotfix that fixed the original bug. original bug was a typo. three PRs.',rx:[{e:'skull',ei:'fa-solid fa-skull',n:26},{e:'salute',ei:'fa-solid fa-hand',n:10}]},
+    {id:'s13',a:'xen0',cont:true,text:'this is the most developer thing ever posted in this channel'},
+    {id:'s14',a:'v0rtex',t:'11:42 AM',text:'i spent a week micro-optimizing a function. it was called once. at startup. not in the hot path.'},
+    {id:'s15',a:'sk1llzz',t:'11:43 AM',text:'premature optimization is the root of all evil. this is why.'},
+    {id:'s16',a:'v0rtex',cont:true,text:'i understand that quote personally now'},
+    {id:'s17',a:'kr4ken',t:'11:55 AM',text:'ok. i accidentally rm -rf with a wrong path and deleted the production database.'},
+    {id:'s18',a:'xen0',t:'11:55 AM',text:'...and?'},
+    {id:'s19',a:'kr4ken',cont:true,text:'restored from backup. 3 weeks old.'},
+    {id:'s20',a:'devl00p',t:'11:56 AM',text:'three weeks of data gone. triple check rm -rf. always.',rx:[{e:'skull',ei:'fa-solid fa-skull',n:20}]},
+    {id:'s21',a:'kr4ken',cont:true,text:'i have learned this lesson in the most painful way possible'},
+  ]},
+  'code-review':{desc:'submit code. receive violence.',msgs:[
+    {id:'c01',a:'devl00p',t:'2:00 PM',text:'quick review needed, it works but something feels off'},
+    {id:'c02',a:'devl00p',cont:true,code:{lang:'python',src:'for i in range(len(mylist)):\n    for j in range(len(mylist)):\n        if mylist[i] == mylist[j] and i != j:\n            print("duplicate")\n# O(n^2)'}},
+    {id:'c03',a:'r00t_wiz',t:'2:01 PM',text:'war crime against big O notation',rx:[{e:'skull',ei:'fa-solid fa-skull',n:11}]},
+    {id:'c04',a:'xen0',t:'2:01 PM',text:'just use a set. one line. O(n).',rx:[{e:'check',ei:'fa-solid fa-check',n:9,me:true}]},
+    {id:'c05',a:'devl00p',cont:true,text:'i was going to refactor it i promise'},
+    {id:'c06',a:'sk1llzz',t:'2:02 PM',text:'"i was going to refactor it" — every dev who ever wrote O(n^2)',rx:[{e:'real',ei:'fa-solid fa-star',n:17}]},
+    {id:'c07',a:'b1nary',t:'2:12 PM',text:'mine please'},
+    {id:'c08',a:'b1nary',cont:true,code:{lang:'javascript',src:'async function getData() {\n  try {\n    const res = await fetch(url)\n    const data = res.json() // missing await\n    return data\n  } catch(e) { console.log(e) }\n}',err:true}},
+    {id:'c09',a:'devl00p',t:'2:13 PM',text:'missing await on res.json(). classic.',rx:[{e:'skull',ei:'fa-solid fa-skull',n:7}]},
+    {id:'c10',a:'b1nary',cont:true,text:'i have had this bug for 2 full days'},
+    {id:'c11',a:'r00t_wiz',t:'2:13 PM',text:'the errors were swallowed by the empty catch. that is why you saw nothing.',rx:[{e:'check',ei:'fa-solid fa-check',n:6}]},
+    {id:'c12',a:'z3ph',t:'2:22 PM',text:'why is this function undefined'},
+    {id:'c13',a:'z3ph',cont:true,code:{lang:'javascript',src:'const obj = { name: "zenuxs" }\nconst getName = obj.getName\nconsole.log(getName()) // TypeError',err:true}},
+    {id:'c14',a:'xen0',t:'2:23 PM',text:'lost the `this` context. bind it or use an arrow function in the class.',rx:[{e:'check',ei:'fa-solid fa-check',n:7}]},
+    {id:'c15',a:'devl00p',t:'2:23 PM',text:'javascript `this` is its own lecture. MDN. now.'},
+    {id:'c16',a:'z3ph',cont:true,text:'reading MDN now'},
+    {id:'c17',a:'m1dnight',t:'2:35 PM',text:'anyone know why my react re-renders 40 times on a single state change'},
+    {id:'c18',a:'r00t_wiz',t:'2:35 PM',text:'useEffect dependency array. you are either missing deps or have an object/array there that recreates every render'},
+    {id:'c19',a:'m1dnight',cont:true,text:'i had an empty object as a dep. useMemo fixed it. thanks'},
+    {id:'c20',a:'sk1llzz',t:'2:36 PM',text:'useEffect with object deps is a rite of passage every react dev goes through',rx:[{e:'real',ei:'fa-solid fa-star',n:14}]},
+  ]},
+  'off-topic':{desc:"everything that doesn't belong anywhere else",msgs:[
+    {id:'o01',a:'sk1llzz',t:'3:00 PM',text:'does anyone here genuinely touch grass'},
+    {id:'o02',a:'devl00p',t:'3:01 PM',text:'i went outside 2 weeks ago. highly recommend avoiding it.'},
+    {id:'o03',a:'jav4_guy',cont:true,text:'same. the sun has no dark mode.'},
+    {id:'o04',a:'xen0',t:'3:01 PM',text:'thriving community',rx:[{e:'check',ei:'fa-solid fa-check',n:14}]},
+    {id:'o05',a:'nub_coder99',t:'3:04 PM',text:'hot take: tabs over spaces'},
+    {id:'o06',a:'r00t_wiz',t:'3:04 PM',text:'do not.'},
+    {id:'o07',a:'devl00p',cont:true,text:'spaces and that is final.'},
+    {id:'o08',a:'sk1llzz',cont:true,text:'tabs are objectively correct'},
+    {id:'o09',a:'b1nary',t:'3:05 PM',text:'the war begins'},
+    {id:'o10',a:'xen0',t:'3:05 PM',text:'we use prettier and we do not think about it.',rx:[{e:'check',ei:'fa-solid fa-check',n:27,me:true}]},
+    {id:'o11',a:'devl00p',cont:true,text:'correct answer.'},
+    {id:'o12',a:'m1dnight',t:'3:18 PM',text:'opinion: writing documentation is actually good'},
+    {id:'o13',a:'sk1llzz',t:'3:18 PM',text:'correct and based',rx:[{e:'heart',ei:'fa-solid fa-heart',n:9}]},
+    {id:'o14',a:'nub_coder99',t:'3:19 PM',text:'future me has never once thanked past me for anything'},
+    {id:'o15',a:'devl00p',t:'3:19 PM',text:'future you is living with past you decisions right now. write the docs.',rx:[{e:'real',ei:'fa-solid fa-star',n:20}]},
+    {id:'o16',a:'v0rtex',t:'3:28 PM',text:'anyone else get physically angry at bad variable names'},
+    {id:'o17',a:'sk1llzz',t:'3:29 PM',text:'variable called "data2"? immediate PR rejection.',rx:[{e:'laugh',ei:'fa-solid fa-face-laugh',n:12}]},
+    {id:'o18',a:'b1nary',cont:true,text:'i have a file called final_FINAL_v3_ACTUAL_FINAL_USE_THIS.js'},
+    {id:'o19',a:'r00t_wiz',t:'3:29 PM',text:'delete it and never speak of it again',rx:[{e:'sob',ei:'fa-solid fa-face-sad-cry',n:9}]},
+    {id:'o20',a:'cl0udx',t:'3:35 PM',text:'zenuxs is genuinely the most chaotic and helpful community i have found',rx:[{e:'heart',ei:'fa-solid fa-heart',n:22,me:true}]},
+    {id:'o21',a:'xen0',t:'3:36 PM',text:'that is the goal. welcome.',rx:[{e:'check',ei:'fa-solid fa-check',n:15}]},
+  ]},
+  memes:{desc:'dedicated meme zone',msgs:[
+    {id:'m01',a:'rekt_anon',t:'1:00 PM',text:'[image: "it works on my machine" — "then we will ship your machine"]',rx:[{e:'skull',ei:'fa-solid fa-skull',n:38},{e:'laugh',ei:'fa-solid fa-face-laugh',n:24,me:true}]},
+    {id:'m02',a:'devl00p',t:'1:01 PM',text:'i have genuinely considered this as a deployment strategy'},
+    {id:'m03',a:'sk1llzz',t:'1:02 PM',text:'dockerize your laptop. problem solved.',rx:[{e:'check',ei:'fa-solid fa-check',n:14}]},
+    {id:'m04',a:'p1xel',t:'1:06 PM',text:'[image: stackoverflow answer from 2009 solving a 2024 problem. 40k upvotes.]',rx:[{e:'real',ei:'fa-solid fa-star',n:31},{e:'skull',ei:'fa-solid fa-skull',n:22}]},
+    {id:'m05',a:'nub_coder99',t:'1:08 PM',text:'the 2009 answer still works because fundamentals dont change',rx:[{e:'check',ei:'fa-solid fa-check',n:18}]},
+    {id:'m06',a:'b1nary',t:'1:12 PM',text:'[image: programmer at 3am convinced the code was fine 30 minutes ago]',rx:[{e:'sob',ei:'fa-solid fa-face-sad-cry',n:26}]},
+    {id:'m07',a:'v0rtex',t:'1:13 PM',text:'every single release night',rx:[{e:'real',ei:'fa-solid fa-star',n:19,me:true}]},
+    {id:'m08',a:'kr4ken',t:'1:18 PM',text:'[image: git blame. your name. everywhere. on code you do not remember writing.]',rx:[{e:'skull',ei:'fa-solid fa-skull',n:32},{e:'sob',ei:'fa-solid fa-face-sad-cry',n:21}]},
+    {id:'m09',a:'devl00p',cont:true,text:'i disable git blame for mental health reasons'},
+    {id:'m10',a:'xen0',t:'1:19 PM',text:'accountability is healthy devl00p',rx:[{e:'check',ei:'fa-solid fa-check',n:7}]},
+    {id:'m11',a:'devl00p',cont:true,text:'i am not mentally healthy enough for accountability from past me'},
+    {id:'m12',a:'rekt_anon',t:'1:25 PM',text:'[image: junior dev vs senior dev reading the same error. junior panics. senior googles. both google.]',rx:[{e:'real',ei:'fa-solid fa-star',n:44},{e:'laugh',ei:'fa-solid fa-face-laugh',n:28,me:true}]},
+    {id:'m13',a:'r00t_wiz',t:'1:26 PM',text:'the difference is the senior knows which search terms to use',rx:[{e:'check',ei:'fa-solid fa-check',n:21}]},
+  ]},
+};
+
+// AUTO messages that fire into #general every 5-10s
+const AUTO_MSGS=[
+  {a:'devl00p',text:'just pushed a commit, fingers crossed this time'},
+  {a:'sk1llzz',text:'what did you change'},
+  {a:'devl00p',text:'everything. do not ask follow up questions.'},
+  {a:'xen0',text:'that is not reassuring at all'},
+  {a:'r00t_wiz',text:'do the tests pass at least'},
+  {a:'devl00p',text:'we do not talk about the tests'},
+  {a:'nub_coder99',text:'you have tests???'},
+  {a:'jav4_guy',text:'anyone getting 429 errors from the discord api today'},
+  {a:'b1nary',text:'yeah rate limited. add exponential backoff.'},
+  {a:'jav4_guy',text:'what is exponential backoff'},
+  {a:'r00t_wiz',text:'retry the request but wait longer each time. google it.'},
+  {a:'z3ph',text:'this server genuinely makes me feel less alone in my bugs'},
+  {a:'xen0',text:'that is literally why it exists'},
+  {a:'devl00p',text:'shared trauma support group but for javascript'},
+  {a:'m1dnight',text:'finally found the bug i have been chasing for 3 days'},
+  {a:'nub_coder99',text:'what was it'},
+  {a:'m1dnight',text:'i was using === instead of == on a value that was coming in as a string'},
+  {a:'sk1llzz',text:'javascript type coercion strikes again'},
+  {a:'p1xel',text:'just deployed on a friday'},
+  {a:'xen0',text:'why would you do this to yourself'},
+  {a:'p1xel',text:'i am chaos incarnate'},
+  {a:'r00t_wiz',text:'never deploy on friday. this is sacred rule number one.'},
+  {a:'jav4_guy',text:'any good side project ideas'},
+  {a:'b1nary',text:'another todo app. but this one is different.'},
+  {a:'jav4_guy',text:'different how'},
+  {a:'b1nary',text:'you wont finish it. just like the last 6.'},
+  {a:'devl00p',text:'the startup graveyard grows',rx:[{e:'skull',ei:'fa-solid fa-skull',n:6,me:true}]},
+  {a:'v0rtex',text:'the best side project is the one you actually ship'},
+  {a:'cl0udx',text:'the code i ship is haunted'},
+  {a:'xen0',text:'all production code is haunted'},
+  {a:'sk1llzz',text:'some more than others'},
+  {a:'kr4ken',text:'mine smells like sulfur'},
+  {a:'devl00p',text:'thats just burnt CPUs'},
+  {a:'nub_coder99',text:'why is my website slow on mobile'},
+  {a:'r00t_wiz',text:'lighthouse report. run it now.'},
+  {a:'nub_coder99',text:'performance score: 14'},
+  {a:'devl00p',text:'14.',rx:[{e:'skull',ei:'fa-solid fa-skull',n:8}]},
+  {a:'sk1llzz',text:'how many mb of unoptimized images do you have'},
+  {a:'nub_coder99',text:'...several'},
+  {a:'b1nary',text:'squoosh.app. you are welcome.'},
+  {a:'jav4_guy',text:'react or vue for a new project'},
+  {a:'devl00p',text:'react. bigger ecosystem.'},
+  {a:'z3ph',text:'vue is cleaner though'},
+  {a:'r00t_wiz',text:'svelte if you want your mind blown'},
+  {a:'xen0',text:'this will also start a war'},
+];
+let autoIdx=0;
+let lastAutoAuthor='';
+
+function scheduleAuto(){
+  setTimeout(fireAuto, 5000+Math.random()*5000);
+}
+function fireAuto(){
+  if(currentChannel!=='general'){scheduleAuto();return;}
+  const msg=AUTO_MSGS[autoIdx%AUTO_MSGS.length];
+  const tr=document.getElementById('typingRow'),tt=document.getElementById('typingText');
+  tr.style.visibility='visible';
+  tt.textContent=`${msg.a} is typing...`;
+  setTimeout(()=>{
+    tr.style.visibility='hidden';
+    const isCont=msg.a===lastAutoAuthor;
+    const m={id:uid(),a:msg.a,t:nowTime(),text:msg.text,rx:msg.rx||[],cont:isCont};
+    CHANNELS.general.msgs.push(m);
+    lastAutoAuthor=msg.a;
+    autoIdx++;
+    appendMsg('chatMsgs',m,true);
+    scheduleAuto();
+  },900+Math.random()*600);
+}
+
+function getCol(username){
+  const lm=liveMembers.find(m=>m.username===username);
+  return (lm&&lm.c)||(ST[username]&&ST[username].c)||COLORS[Math.abs((username||'a').charCodeAt(0)-97)%COLORS.length];
+}
+function getAviHTML(username,size){
+  const lm=liveMembers.find(m=>m.username===username);
+  const col=getCol(username);
+  const ini=initials(username);
+  const sz=size||'36px';
+  if(lm&&lm.avatar_url){
+    return `<img src="${esc(lm.avatar_url)}" alt="${esc(username)}" style="width:${sz};height:${sz};border-radius:50%;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling&&(this.nextElementSibling.style.display='flex')"><span style="display:none;width:${sz};height:${sz};border-radius:50%;background:${col}22;color:${col};align-items:center;justify-content:center;font-size:11px;font-weight:800;">${ini}</span>`;
+  }
+  return `<span style="display:flex;width:${sz};height:${sz};border-radius:50%;background:${col}22;color:${col};align-items:center;justify-content:center;font-size:11px;font-weight:800;">${ini}</span>`;
+}
+
+function renderCode(c){return `<div class="code-blk"><span class="code-lang-lbl">${esc(c.lang)}</span><span class="${c.err?'err-line':''}">${esc(c.src)}</span></div>`;}
+function renderRx(rx,msgId){
+  const h=rx.map((r,i)=>`<span class="rx${r.me?' me':''}" onclick="toggleRx(this,'${msgId}',${i})"><i class="${r.ei}"></i> <span class="rx-count">${r.n}</span></span>`).join('');
+  return `<div class="reactions">${h}<span class="add-rx" onclick="openEmojiPick(event,'${msgId}')"><i class="fa-regular fa-face-smile"></i></span></div>`;
+}
+
+function buildMsgHTML(m,isNew){
+  const col=getCol(m.a);
+  const st=ST[m.a]||{};
+  const badge=m.badge||st.badge?`<span class="msg-badge badge-${m.badge||st.badge}">${(m.badge||st.badge).toUpperCase()}</span>`:'';
+  const nc=isNew?' msg-new':'';
+  if(m.cont){
+    let inner=m.code?renderCode(m.code):`<div class="msg-cont-text">${esc(m.text).replace(/\n/g,'<br>')}</div>${m.rx&&m.rx.length?renderRx(m.rx,m.id):''}`;
+    return `<div class="msg-row cont-row${nc}" data-id="${m.id}" oncontextmenu="openCtx(event,'${m.id}')"><div class="msg-ts-indent"><span>${m.t||''}</span></div><div class="msg-body">${inner}</div></div>`;
+  }
+  let body='';
+  if(m.replyTo)body+=`<div class="reply-strip"><i class="fa-solid fa-reply"></i><span class="reply-strip-author">${esc(m.replyTo)}</span> ${esc(m.replyText||'')}</div>`;
+  body+=`<div class="msg-meta"><span class="msg-author" style="color:${col}">${esc(m.a)}</span>${badge}<span class="msg-time">Today at ${m.t||''}</span></div>`;
+  body+=m.code?renderCode(m.code):`<div class="msg-text">${esc(m.text).replace(/\n/g,'<br>')}</div>${m.rx&&m.rx.length?renderRx(m.rx,m.id):''}`;
+  return `<div class="msg-group${nc}"><div class="msg-row" data-id="${m.id}" oncontextmenu="openCtx(event,'${m.id}')"><div class="msg-avatar-col"><div class="avatar-circle" style="background:${col}22;color:${col}">${getAviHTML(m.a,'36px')}</div></div><div class="msg-body">${body}</div></div></div>`;
+}
+
+function renderMessages(ch){
+  const data=CHANNELS[ch];if(!data)return;
+  const box=document.getElementById('chatMsgs');
+  box.innerHTML=data.msgs.map(m=>buildMsgHTML(m,false)).join('');
+  box.scrollTop=box.scrollHeight;
+  userScrolled=false;
+  document.getElementById('chName').textContent=ch;
+  document.getElementById('chDesc').textContent=data.desc;
+  document.getElementById('msgInput').placeholder=`Message #${ch}`;
+}
+function appendMsg(boxId,m,animated){
+  const box=document.getElementById(boxId);if(!box)return;
+  const wrap=document.createElement('div');
+  wrap.innerHTML=buildMsgHTML(m,animated);
+  const el=wrap.firstElementChild;
+  box.appendChild(el);
+  if(!userScrolled)box.scrollTop=box.scrollHeight;
+}
+
+// Track manual scroll
+document.getElementById('chatMsgs').addEventListener('scroll',function(){
+  userScrolled=(this.scrollHeight-this.scrollTop-this.clientHeight)>80;
+});
+
+function switchCh(ch,el){
+  if(!CHANNELS[ch])return;
+  currentChannel=ch;
+  document.querySelectorAll('.ch').forEach(c=>c.classList.remove('active'));
+  if(el)el.classList.add('active');
+  cancelReply();
+  renderMessages(ch);
+}
+function sendMessage(){
+  const inp=document.getElementById('msgInput');
+  const text=inp.value.trim();if(!text)return;
+  const msgs=CHANNELS[currentChannel].msgs;
+  const isCont=msgs.length>0&&msgs[msgs.length-1].a==='zenx'&&!replyingToMsg;
+  const m={id:uid(),a:'zenx',c:'#7c8cff',t:nowTime(),text,rx:[],cont:isCont};
+  if(replyingToMsg){m.replyTo=replyingToMsg.author;m.replyText=replyingToMsg.text;m.cont=false;}
+  CHANNELS[currentChannel].msgs.push(m);
+  inp.value='';cancelReply();
+  document.getElementById('sendBtn').classList.remove('active');
+  appendMsg('chatMsgs',m,true);
+  showToast('Sent!');
+}
+document.getElementById('msgInput').addEventListener('keydown',e=>{if(e.key==='Enter')sendMessage();});
+document.getElementById('msgInput').addEventListener('input',e=>{document.getElementById('sendBtn').classList.toggle('active',e.target.value.trim().length>0);});
+
+function startReply(author,text){replyingToMsg={author,text};document.getElementById('replyBar').style.display='flex';document.getElementById('replyingTo').textContent=author;document.getElementById('msgInput').focus();}
+function cancelReply(){replyingToMsg=null;document.getElementById('replyBar').style.display='none';}
+
+let ctxMsgId=null;
+function openCtx(e,msgId){e.preventDefault();ctxMsgId=msgId;ctxTargetMsg=findMsg(msgId);const m=document.getElementById('ctxMenu');m.style.left=Math.min(e.clientX,window.innerWidth-180)+'px';m.style.top=Math.min(e.clientY,window.innerHeight-170)+'px';m.classList.add('show');}
+function closeCtx(){document.getElementById('ctxMenu').classList.remove('show');}
+function ctxReply(){closeCtx();if(ctxTargetMsg)startReply(ctxTargetMsg.a,ctxTargetMsg.text||'');}
+function ctxReact(){closeCtx();openEmojiPick({clientX:window.innerWidth/2,clientY:window.innerHeight/2,preventDefault:()=>{},stopPropagation:()=>{}},ctxMsgId);}
+function ctxCopy(){closeCtx();if(ctxTargetMsg&&navigator.clipboard)navigator.clipboard.writeText(ctxTargetMsg.text||'');showToast('Copied!');}
+document.addEventListener('click',()=>{closeCtx();document.getElementById('emojiPick').classList.remove('show');});
+document.getElementById('ctxMenu').addEventListener('click',e=>e.stopPropagation());
+function findMsg(id){for(const ch of Object.values(CHANNELS)){const m=ch.msgs.find(m=>m.id===id);if(m)return m;}return null;}
+function toggleRx(el,msgId,idx){el.classList.toggle('me');const c=el.querySelector('.rx-count');c.textContent=el.classList.contains('me')?parseInt(c.textContent)+1:parseInt(c.textContent)-1;}
+
+let emojiTargetMsgId=null;
+(function(){
+  const icons=[{e:'skull',ei:'fa-solid fa-skull'},{e:'heart',ei:'fa-solid fa-heart'},{e:'laugh',ei:'fa-solid fa-face-laugh'},{e:'check',ei:'fa-solid fa-check'},{e:'fire',ei:'fa-solid fa-fire'},{e:'party',ei:'fa-solid fa-champagne-glasses'},{e:'star',ei:'fa-solid fa-star'},{e:'sob',ei:'fa-solid fa-face-sad-cry'},{e:'ban',ei:'fa-solid fa-ban'},{e:'hand',ei:'fa-solid fa-hand'},{e:'leaf',ei:'fa-solid fa-leaf'},{e:'eye',ei:'fa-solid fa-eye'}];
+  document.getElementById('emojiGrid').innerHTML=icons.map(ic=>`<button class="emoji-btn" onclick="addReact('${ic.e}','${ic.ei}')"><i class="${ic.ei}"></i></button>`).join('');
+})();
+function openEmojiPick(e,msgId){if(e.preventDefault)e.preventDefault();if(e.stopPropagation)e.stopPropagation();emojiTargetMsgId=msgId||null;const p=document.getElementById('emojiPick');p.style.left=Math.min(e.clientX||200,window.innerWidth-220)+'px';p.style.top=Math.min((e.clientY||200)-130,window.innerHeight-180)+'px';p.classList.add('show');}
+function addReact(e,ei){document.getElementById('emojiPick').classList.remove('show');if(!emojiTargetMsgId)return;const msg=findMsg(emojiTargetMsgId);if(!msg)return;if(!msg.rx)msg.rx=[];const ex=msg.rx.find(r=>r.e===e);if(ex){ex.n++;ex.me=true;}else{msg.rx.push({e,ei,n:1,me:true});}renderMessages(currentChannel);showToast('Reaction added!');}
+
+function showToast(msg){const t=document.getElementById('toast');document.getElementById('toastMsg').textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000);}
+
+// Members
+function renderMembersPanel(members){
+  const groups=[{title:'ONLINE',f:m=>m.status==='online',sc:'s-on'},{title:'IDLE',f:m=>m.status==='idle',sc:'s-idle'},{title:'DO NOT DISTURB',f:m=>m.status==='dnd',sc:'s-dnd'},{title:'OFFLINE',f:m=>m.status==='offline',sc:'s-off'}];
+  let html='';
+  groups.forEach(g=>{
+    const list=members.filter(g.f);if(!list.length)return;
+    html+=`<div class="mem-group-title">${g.title} — ${list.length}</div>`;
+    list.forEach(m=>{
+      const col=m.c||COLORS[0];
+      const aviHtml=m.avatar_url?`<img src="${esc(m.avatar_url)}" alt="${esc(m.username)}" style="width:28px;height:28px;border-radius:50%;object-fit:cover;">`:`<span style="display:flex;width:28px;height:28px;border-radius:50%;background:${col}22;color:${col};align-items:center;justify-content:center;font-size:10px;font-weight:800;">${initials(m.username)}</span>`;
+      html+=`<div class="mem-item"><div class="mem-avi-wrap"><div class="mem-avi" style="background:${col}22;">${aviHtml}</div><div class="status-dot ${g.sc}"></div></div><div class="mem-info"><div class="mem-name">${esc(m.username)}</div>${m.game?`<div class="mem-activity"><i class="fa-solid fa-circle-play" style="font-size:9px;margin-right:3px;"></i>${esc(m.game)}</div>`:''}</div></div>`;
+    });
+  });
+  const p=document.getElementById('membersList');if(p)p.innerHTML=html||'<div style="padding:14px 9px;color:#4a4d56;font-size:11px;">No members online</div>';
+  const c=document.getElementById('totalMembersCount');if(c)c.textContent=members.length;
+}
+function renderMembersGrid(members){
+  const grid=document.getElementById('membersGrid');if(!grid)return;
+  const si=s=>s==='online'?'<i class="fa-solid fa-circle" style="color:#4ade80"></i> Online':s==='idle'?'<i class="fa-solid fa-moon" style="color:#faa61a"></i> Idle':s==='dnd'?'<i class="fa-solid fa-ban" style="color:#f23f43"></i> DND':'<i class="fa-solid fa-circle" style="color:#80848e"></i> Offline';
+  if(!members.length){grid.innerHTML='<div style="grid-column:1/-1;text-align:center;color:var(--muted);padding:32px;">Live members appear here once connected to Discord</div>';return;}
+  grid.innerHTML=members.map(m=>{
+    const col=m.c||COLORS[0];const ini=initials(m.username);
+    const avi=m.avatar_url?`<img src="${esc(m.avatar_url)}" alt="${esc(m.username)}" style="width:60px;height:60px;object-fit:cover;border-radius:50%;" onerror="this.outerHTML='<span style=&quot;display:flex;width:60px;height:60px;border-radius:50%;background:${col}22;color:${col};align-items:center;justify-content:center;font-size:18px;font-weight:800;&quot;>${ini}</span>'">`:`<span style="display:flex;width:60px;height:60px;border-radius:50%;background:${col}22;color:${col};align-items:center;justify-content:center;font-size:18px;font-weight:800;">${ini}</span>`;
+    return `<div class="member-card"><div class="member-card-avi" style="background:${col}22">${avi}</div><h4>${esc(m.username)}</h4><div class="member-status">${si(m.status||'offline')}</div>${m.game?`<div style="font-size:10px;margin-top:5px;color:var(--muted);display:flex;align-items:center;justify-content:center;gap:4px;"><i class="fa-solid fa-circle-play" style="font-size:9px"></i>${esc(m.game)}</div>`:''}</div>`;
+  }).join('');
+}
+
+const FALLBACK_MEMBERS=[
+  {username:'xen0',status:'online',c:'#7289da',game:'Moderating'},
+  {username:'devl00p',status:'online',c:'#43b581',game:'VS Code'},
+  {username:'r00t_wiz',status:'online',c:'#5865f2'},
+  {username:'sk1llzz',status:'online',c:'#f04747',game:'Minecraft'},
+  {username:'jav4_guy',status:'idle',c:'#43b581',game:'IntelliJ IDEA'},
+  {username:'nub_coder99',status:'idle',c:'#faa61a'},
+  {username:'rekt_anon',status:'dnd',c:'#999'},
+  {username:'pr0d_bot',status:'online',c:'#5865f2',game:'Watching prod'},
+  {username:'z3ph',status:'online',c:'#c084fc'},
+  {username:'b1nary',status:'online',c:'#06b6d4'},
+];
+
+async function fetchWidget(){
+  try{
+    const res=await fetch(WIDGET_URL);
+    if(!res.ok)throw new Error('fail');
+    const data=await res.json();
+    const members=(data.members||[]).map((m,i)=>{
+      let av=m.avatar_url||null;
+      if(!av&&m.id&&m.avatar)av=`https://cdn.discordapp.com/avatars/${m.id}/${m.avatar}.png?size=128`;
+      return{...m,avatar_url:av,c:COLORS[i%COLORS.length],initials:initials(m.username)};
+    });
+    document.getElementById('totalActiveMembers').textContent=members.length||'1k+';
+    document.getElementById('liveOnlineHero').textContent=data.presence_count??0;
+    if(data.instant_invite)['heroJoinBtn','bottomJoinBtn','topJoinBtn'].forEach(id=>{const el=document.getElementById(id);if(el)el.href=data.instant_invite;});
+    liveMembers=members.length?members:FALLBACK_MEMBERS;
+    renderMembersPanel(liveMembers);
+    renderMembersGrid(liveMembers);
+    renderMessages(currentChannel); // refresh avatars in chat
+  }catch{
+    document.getElementById('totalActiveMembers').textContent='1k+';
+    document.getElementById('liveOnlineHero').textContent='—';
+    renderMembersPanel(FALLBACK_MEMBERS);
+    renderMembersGrid(FALLBACK_MEMBERS);
+  }
+}
+
+// Init
+renderMessages('general');
+renderMembersPanel(FALLBACK_MEMBERS);
+renderMembersGrid(FALLBACK_MEMBERS);
+fetchWidget();
+setInterval(fetchWidget,35000);
+scheduleAuto();
+
+window.addEventListener('scroll',()=>{
+  const y=window.scrollY;
+  document.querySelectorAll('.orb').forEach((o,i)=>{o.style.transform=`translateY(${y*(0.04+i*0.02)}px)`;});
+});
+</script>
+</body>
+</html>
